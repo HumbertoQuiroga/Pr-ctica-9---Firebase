@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingHorizontal="10dp"
+    tools:context="quiroga.humberto.misnotas.AgregarNotaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nota"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        />
+
+    <EditText
+        android:id="@+id/editText_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/titulo"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editText_contenidoNota"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:hint="@string/escibirNota"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/boton_guardarNota"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/agregarNota"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:background="@color/verde_claro"
+        android:textColor="@color/blanco"
+        />
+
+</LinearLayout>
